@@ -1,6 +1,6 @@
 #!/usr/bin/pup
-# This command will install a package using puppet
+# Install an especific version of flask (2.1.0)
 package {'flask':
-	ensure => '2.1.0',
-	provider => 'pip3'
+  ensure   => '2.1.0',
+  provider => 'pip3'
 }
