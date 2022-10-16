@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 ssh ubuntu@34.139.123.27
 mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
