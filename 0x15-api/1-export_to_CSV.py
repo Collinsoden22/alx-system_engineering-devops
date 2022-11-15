@@ -8,7 +8,7 @@ import sys
 
 if __name__ == '__main__':
     endpoint = "https://jsonplaceholder.typicode.com/"
-    userId = sys.argv[1]
+    USER_ID = sys.argv[1]
     user = requests.get(endpoint + 'users/{}'.format(USER_ID)).json()
     todo = requests.get(endpoint + 'todos?userId={}'.format(USER_ID)).json()
 
