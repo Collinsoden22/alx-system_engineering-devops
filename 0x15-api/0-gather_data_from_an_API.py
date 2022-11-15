@@ -5,7 +5,8 @@ import requests
 import sys
 
 if __name__ == '__main__':
-    """Gets API endpoint, then identify a user to display completed task info"""
+    """Gets API endpoint, then identify a
+ user to display completed task info"""
     endpoint = "https://jsonplaceholder.typicode.com/"
     userId = sys.argv[1]
     user = requests.get(endpoint + 'users/{}'.format(userId)).json()
