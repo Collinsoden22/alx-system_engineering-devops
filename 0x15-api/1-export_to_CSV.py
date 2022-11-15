@@ -17,4 +17,4 @@ if __name__ == '__main__':
         for task in todo:
             write_to_file.writerow([int(USER_ID), user.get(
                 'USERNAME'), task.get('TASK_COMPLETED_STATUS'), 
-                task.get('TASK_TITLE')])
+task.get('TASK_TITLE')])
